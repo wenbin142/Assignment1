@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  color: aliceblue;
+  background-color: rgb(71, 66, 66);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header i {
+  margin-right: 10px;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(206, 179, 146);
+}
+
+main {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: 1fr;
+}
+main img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+main article {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: aliceblue 1px;
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 10px 5px 5px;
+  border-radius: 16px;
+}
+
